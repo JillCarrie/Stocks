@@ -1,28 +1,21 @@
-## Can Amazon Reviews Help Businesses Learn their Best Customers? 
+## Predicting the E-Mini S&P 500 Index. 
+
+By: Jill Carrie ([@jillcarrie](https://github.com/jillcarrie/))
 
 ## Goals
 
-
-The key question we look to answer is whether knowing the text of an Amazon Customer Review can help us predict the star rating of that review.
-
-Our goal is to eventually improve our process to a level where it can be deployed on customer conversations anywhere to help businesses identify customers most likely to love or hate their products based on the things they are saying.
-
-
-## Contributors:
- - Muoyo Okome ([@muoyo](https://github.com/muoyo/))
- - Jill Carrie ([@jillcarrie](https://github.com/jillcarrie/))
+The key question I am looking to answer is can I use data science techniques to predict the price of the S&P 500?
 
 ## Summary & Links to Files:
-- [Slide Deck (PDF)](presentation/amazon.pdf)
-- [Data Source:](https://registry.opendata.aws/amazon-reviews/) [Amazon Customer Reviews Dataset](https://registry.opendata.aws/amazon-reviews/)
+- [Slide Deck (PDF)](presentation/stocks.pdf)
+- [Data Source:](https://registry.opendata.aws/amazon-reviews/) [DTN - IQFeed](http://www.iqfeed.net/index.cfm?displayaction=support&section=map)
 - [Notebooks](notebooks/)
-    - [Technical Notebook](notebooks/amazon.ipynb)
-    - [Exploratory Data Analysis](notebooks/amazon_eda.ipynb)
-    - [Word Cloud Exploration](notebooks/wordcloud.ipynb)
+    - [Technical Notebook](notebooks/stocks.ipynb)
+    - [Exploratory Data Analysis](notebooks/stocks_eda.ipynb)
 - [Python Files](python_files/)
     - [Language Processing](python_files/nlp.py)
     - [Data Cleaning](python_files/data_cleaning.py)
     - [Classification](python_files/classification.py)
     - [Visualizations](python_files/visualizations.py)
 
-<p><!--<img src='images/rideshare.jpeg'>-->
+
